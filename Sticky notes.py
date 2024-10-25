@@ -9,7 +9,7 @@ try:
        cur.execute('''CREATE TABLE notes_table
                         (date text, notes_title text, notes text)''')
 except:
-       print("Connected to table of database")
+       print("Connected to table of database!")
 
 # Insert a row of data
 def add_notes():

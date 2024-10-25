@@ -5,7 +5,7 @@ from playsound import playsound
 root=Tk()
 root.geometry("350x300")
 root.configure(bg='ghost white')
-root.title("TEXT TO SPEECH")
+root.title("TEXT TO SPEECH CONVERTOR")
 
 Label(root, text = "TEXT_TO_SPEECH", font = "arial 20 bold", bg='white smoke').pack()
 Label(text ="KALPNA", font = 'arial 15 bold', bg ='white smoke' , width = '20').pack(side = 'bottom')

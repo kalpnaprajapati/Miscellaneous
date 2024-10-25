@@ -7,7 +7,7 @@ SCREEN_SIZE = tuple(pyautogui.size())
 
 # Define the codec and create VideoWriter object
 fourcc = cv2.VideoWriter_fourcc(*"mp4v")
-out = cv2.VideoWriter("output.mp4", fourcc, 20.0, (SCREEN_SIZE))
+out = cv2.VideoWriter("outputvideo.mp4", fourcc, 20.0, (SCREEN_SIZE))
 
 # Record duration in seconds
 record_seconds = 30
